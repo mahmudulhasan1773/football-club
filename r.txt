@@ -1,0 +1,16 @@
+1. must be fontawesome
+2. header transition thakbe
+3. style tik thakbe
+4. picture and text can be changed
+5. layout tik thanke be
+6. icon thanke be 
+7. copyright thakbe
+8. mobile device media quary takbe 1 column
+9. tablet 2 column
+10. html5
+11. css3
+12. commenting 
+13. google font 
+14. extra 2 part
+15 grid and flex
+ 

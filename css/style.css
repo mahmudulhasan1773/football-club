@@ -1,0 +1,134 @@
+/* google font  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:wght@300;400;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+}
+
+header {
+  background-color: #2d25a0;
+}
+/* header main */
+.header-main {
+  padding: 50px 0px;
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.header-left {
+  padding: 20px 30px 20px 0px;
+}
+.header-left h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 80px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 24px;
+  background-color: #e02c6d;
+  color: #fff;
+  border-radius: 5px;
+  border: 0px;
+}
+i.fa-solid.fa-arrow-right {
+  padding-left: 10px;
+}
+.btn:hover {
+  background-color: #020113;
+  color: #e02c6d;
+  transition: background-color 2s;
+}
+.header-right img {
+  margin-left: 50px;
+  width: 100%;
+}
+
+/* players */
+.players {
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+.player-container {
+  margin: 10px auto;
+  width: 85%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5%;
+}
+
+.player {
+  padding: 15px;
+  box-shadow: 2px 2px 10px 5px rgba(15, 13, 13, 0.308);
+}
+.player img {
+  width: 100%;
+}
+.player p {
+  text-align: justify;
+}
+/* player-registraiton */
+
+.registration-title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 150px;
+}
+.player-registration {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 0px;
+  color: #fff;
+  gap: 20px;
+}
+
+.registration-left {
+  background-color: #2c24949d;
+  text-align: center;
+  padding: 20px;
+}
+.registration-right {
+  background-color: #0000009d;
+  text-align: center;
+  padding: 20px;
+}
+.registration-right label {
+  display: inline-block;
+  width: 100px;
+  margin-right: 20px;
+}
+.registration-right input {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.registration-left a {
+  display: inline-block;
+}
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+footer.logo {
+  text-align: center;
+}
+.social-icons a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #a4a4a5;
+  padding: 10px;
+  border-radius: 50%;
+  color: #e02c6d;
+}
